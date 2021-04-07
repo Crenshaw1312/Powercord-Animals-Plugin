@@ -1,0 +1,7 @@
+{
+  "name": "Animal Facts",
+  "description": "Gets a random, or specified, animal fact",
+  "author": "Crenshaw#1312",
+  "version": "1.0.0",
+  "license": "MIT"
+}
