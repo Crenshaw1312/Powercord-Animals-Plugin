@@ -1,7 +1,7 @@
 const { get } = require('powercord/http');
 const { Plugin } = require('powercord/entities');
 
-class AnimalFact extends Plugin {
+class Animals extends Plugin {
     startPlugin() {
         powercord.api.commands.registerCommand({
             command: 'animal',
@@ -64,8 +64,8 @@ class AnimalFact extends Plugin {
     }
 
     pluginWillUnload() {
-        powercord.api.commands.unregisterCommand('fact');
+        powercord.api.commands.unregisterCommand('animal');
     }
 }
 
-module.exports = AnimalFact;
+module.exports = Animals;
